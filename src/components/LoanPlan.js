@@ -13,17 +13,17 @@ const LoanPlan = () => {
               Select your loan amount
             </span>
             <div className="flex items-center space-x-4 py-2">
-              <button className="flex items-center justify-center h-16 w-16 border border-indigo-400 bg-gradient-to-br from-blue-700 via-blue-500 to-blue-400 rounded-full focus:outline-none">
+              <button className="flex items-center justify-center h-16 w-16 border border-blue-200 bg-gradient-to-br from-blue-700 via-blue-500 to-blue-400 rounded-full focus:outline-none">
                 <span className="leading-5 tracking-wider font-bold text-white">
                   $250
                 </span>
               </button>
-              <button className="flex items-center justify-center h-16 w-16 border border-blue-300 rounded-full focus:outline-none">
+              <button className="flex items-center justify-center h-16 w-16 border border-blue-200 rounded-full focus:outline-none">
                 <span className="leading-5 tracking-wider font-bold text-blue-700">
                   $500
                 </span>
               </button>
-              <button className="flex items-center justify-center h-16 w-16 border border-blue-300 rounded-full focus:outline-none">
+              <button className="flex items-center justify-center h-16 w-16 border border-blue-200 rounded-full focus:outline-none">
                 <span className="leading-5 tracking-wider font-bold text-blue-700">
                   $750
                 </span>

@@ -9,17 +9,21 @@ const Process = ({ process }) => {
           {process.number}
         </span>
       </div>
-      <h3 className="leading-8 text-xl font-bold justify">{process.heading}</h3>
-      <p className="leading-5 text-sm font-semibold text-gray-600">
-        {process.subHeading}
-      </p>
+      <div className="flex flex-col items-center space-y-1">
+        <h3 className="leading-8 text-xl font-bold justify">
+          {process.heading}
+        </h3>
+        <p className="leading-5 text-sm font-semibold text-gray-600">
+          {process.subHeading}
+        </p>
+      </div>
       <div className="flex justify-center">
         <img src={process.imgSrc} alt="Fast!" className="h-24 w-24" />
       </div>
-      {process.descriptions.map((description, index) => {
-        return (
-          <div key={index} className="flex flex-col space-y-5 pt-2">
-            <div className="flex space-x-4">
+      <div className="flex flex-col justify-start space-y-5 pt-1">
+        {process.descriptions.map((description, index) => {
+          return (
+            <div key={index} className="flex space-x-4">
               <div className="bg-teal-400 rounded-full h-5 w-5">
                 <CheckIcon className="h-5 w-5 text-white" />
               </div>
@@ -27,9 +31,9 @@ const Process = ({ process }) => {
                 {description}
               </p>
             </div>
-          </div>
-        );
-      })}
+          );
+        })}
+      </div>
     </div>
   );
 };

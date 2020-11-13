@@ -10,7 +10,7 @@ const Hero = () => {
         <Pattern className="h-64 w-64 opacity-25" />
       </div>
 
-      <div className="space-y-10">
+      <div className="space-y-6">
         <div className="space-y-5">
           <h1 className="text-3xl font-extrabold text-gray-900 leading-8">
             Hassle free loaning
@@ -41,6 +41,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+
       <Wallet className="h-64 w-64" />
     </div>
   );

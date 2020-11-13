@@ -7,3 +7,32 @@ html {
 @tailwind components;
 
 @tailwind utilities;
+
+.hexagon {
+  position: relative;
+  width: 36px;
+  height: 20.78px;
+  background-color: #439efe;
+  margin: 10.39px 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  border-left: 18px solid transparent;
+  border-right: 18px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 10.39px solid #439efe;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  margin-top: -1px;
+  border-top: 10.39px solid #439efe;
+}

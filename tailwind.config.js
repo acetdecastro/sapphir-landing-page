@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
+const { colors } = defaultTheme;
 
 module.exports = {
   future: {
@@ -13,16 +14,31 @@ module.exports = {
     extend: {
       colors: {
         gray: {
-          100: '#f5f5f5',
-          200: '#eeeeee',
-          300: '#e0e0e0',
-          400: '#bdbdbd',
-          500: '#9e9e9e',
-          600: '#757575',
-          700: '#616161',
-          800: '#424242',
-          900: '#212121',
+          ...colors.gray,
+          50: '#fafafa',
         },
+      },
+      margin: {
+        0.5: '0.125rem',
+        1.5: '0.375rem',
+        '-9': '-2.25rem',
+      },
+      padding: {
+        0.5: '0.125rem',
+        1.5: '0.375rem',
+        14: '3.5rem',
+        28: '7rem',
+      },
+      height: {
+        0.5: '0.125rem',
+        2.5: '0.625rem',
+        3.5: '0.925rem',
+      },
+      width: {
+        0.5: '0.125rem',
+        2.5: '0.625rem',
+        3.5: '0.925rem',
+        72: '18rem',
       },
     },
   },

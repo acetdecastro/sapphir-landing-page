@@ -26,13 +26,13 @@ const Hero = () => {
         </div>
         <div className="flex flex-col space-y-4">
           <div>
-            <button className="uppercase text-xs py-3 px-6 bg-gradient-to-bl from-indigo-400 rounded-md font-bold tracking-widest hero-apply-now-button text-white focus:outline-none">
+            <button className="uppercase text-xs py-3 px-6 bg-gradient-to-bl from-indigo-400 rounded-md font-bold tracking-widest sapphir-bg-color text-white focus:outline-none">
               Apply now
             </button>
           </div>
           <div className="flex items-center space-x-1">
             <div className="flex items-center rounded-full p-2 bg-teal-200">
-              <PhoneIcon className="h-3.5 w-3.5 text-blue-900" />
+              <PhoneIcon className="h-3.5 w-3.5 text-gray-900" />
             </div>
 
             <span className="text-xs text-gray-700 font-medium tracking-wide">

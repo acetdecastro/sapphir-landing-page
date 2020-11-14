@@ -35,7 +35,11 @@ const Features = () => {
             <div className="blue-hexagon"></div>
           </a>
           <h3 className="leading-5 text-xl tracking-wide font-extrabold text-black">
-            The Sapphir difference
+            The{' '}
+            <span className="text-transparent bg-gradient-to-r from-blue-500 sapphir-bg-color bg-clip-text">
+              Sapphir
+            </span>{' '}
+            difference
           </h3>
         </div>
         {features.map((feature, index) => {

@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import LoanPlan from '../components/LoanPlan';
 import Processes from '../components/process/Processes';
 import Features from '../components/feature/Features';
+import Support from '../components/Support';
 
 const Main = () => {
   return (
@@ -11,6 +12,7 @@ const Main = () => {
       <LoanPlan />
       <Processes />
       <Features />
+      <Support />
     </main>
   );
 };

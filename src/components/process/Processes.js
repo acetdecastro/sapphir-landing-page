@@ -1,9 +1,9 @@
 import React from 'react';
 import Process from './Process';
 
-import firstProcess from '../../assets/process1.png';
-import secondProcess from '../../assets/process2.png';
-import thirdProcess from '../../assets/process3.png';
+import firstProcessImg from '../../assets/process1.png';
+import secondProcessImg from '../../assets/process2.png';
+import thirdProcessImg from '../../assets/process3.png';
 
 const Processes = () => {
   const processes = [
@@ -11,7 +11,7 @@ const Processes = () => {
       number: 1,
       heading: 'Apply in 2 mins',
       subHeading: 'No credit check, no paperwork.',
-      imgSrc: firstProcess,
+      imgSrc: firstProcessImg,
       descriptions: [
         'No credit check required in the application process.',
         'Apply online or by phone within 2 minutes.',
@@ -22,7 +22,7 @@ const Processes = () => {
       number: 2,
       heading: 'Get approved in 10 mins',
       subHeading: 'Safe, secure, confidential.',
-      imgSrc: secondProcess,
+      imgSrc: secondProcessImg,
       descriptions: [
         'Highest security standard in the financial industry.',
         'We never have access to your bank account or your password.',
@@ -33,7 +33,7 @@ const Processes = () => {
       number: 3,
       heading: 'Get your loan in 30 mins',
       subHeading: 'Deposited directly into your account.',
-      imgSrc: thirdProcess,
+      imgSrc: thirdProcessImg,
       descriptions: [
         'Receive an e-transfer you can use right away.',
         'You can also receive a direct deposit into your bank account.',

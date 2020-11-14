@@ -12,6 +12,9 @@ module.exports = {
       sans: ['"Inter var"', ...defaultTheme.fontFamily.sans],
     },
     extend: {
+      backgroundImage: (theme) => ({
+        'support-hero-img': "url('/src/assets/customerservice.jpg')",
+      }),
       colors: {
         gray: {
           ...colors.gray,
@@ -58,6 +61,7 @@ module.exports = {
       'visited',
       'disabled',
     ],
+    backgroundImage: ['responsive', 'hover', 'focus'],
   },
   plugins: [],
 };

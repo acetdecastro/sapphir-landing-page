@@ -2,7 +2,7 @@ import React from 'react';
 
 const ActivePitching = () => {
   return (
-    <div className="p-8 flex flex-col items-center bg-gradient-to-t from-gray-100 space-y-4">
+    <div className="p-8 flex flex-col items-center bg-gradient-to-b from-gray-50 space-y-4">
       <h3 className="leading-8 text-2xl text-gray-900 font-extrabold text-center">
         Get the funds you need today
       </h3>
@@ -11,7 +11,7 @@ const ActivePitching = () => {
         simple loaning process.
       </p>
 
-      <button className="sapphir-bg-color uppercase font-bold tracking-widest text-sm w-full py-2 text-gray-100 rounded">
+      <button className="bg-gradient-to-bl from-indigo-500 sapphir-bg-color uppercase font-bold tracking-widest text-sm w-full py-2 text-gray-100 rounded-md">
         Apply now
       </button>
 

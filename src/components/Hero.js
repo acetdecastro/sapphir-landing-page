@@ -24,7 +24,7 @@ const Hero = () => {
         </div>
         <div className="flex flex-col space-y-4">
           <div>
-            <button className="uppercase text-xs py-3 px-6 bg-gradient-to-bl from-indigo-400 rounded-md font-bold tracking-widest sapphir-bg-color text-white focus:outline-none">
+            <button className="uppercase text-xs py-3 px-6 bg-gradient-to-bl from-indigo-500 rounded-md font-bold tracking-widest sapphir-bg-color text-white focus:outline-none">
               Apply now
             </button>
           </div>

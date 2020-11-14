@@ -2,6 +2,10 @@ import firstProcessImg from '../assets/process1.png';
 import secondProcessImg from '../assets/process2.png';
 import thirdProcessImg from '../assets/process3.png';
 
+import { ReactComponent as ClockIcon } from 'heroicons/outline/clock.svg';
+import { ReactComponent as ChipIcon } from 'heroicons/outline/chip.svg';
+import { ReactComponent as HeartIcon } from 'heroicons/outline/heart.svg';
+
 export const dataProcesses = [
   {
     number: 1,
@@ -35,6 +39,27 @@ export const dataProcesses = [
       'You can also receive a direct deposit into your bank account.',
       'No waiting or travel necessary to receive your money.',
     ],
+  },
+];
+
+export const dataFeatures = [
+  {
+    Icon: ClockIcon,
+    heading: 'Fastest deposit time',
+    subHeading:
+      'Sapphir approves and deposits your loan in the shortest amount of time comparing to other lenders.',
+  },
+  {
+    Icon: ChipIcon,
+    heading: 'Latest technologies',
+    subHeading:
+      'Sapphir provides an easy and secure experience with latest internet technologies.',
+  },
+  {
+    Icon: HeartIcon,
+    heading: 'Great customer service',
+    subHeading:
+      'Our excellent agents are ready to help you resolve your concerns with a single call, chat or email.',
   },
 ];
 

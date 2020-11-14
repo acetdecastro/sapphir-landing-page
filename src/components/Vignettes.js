@@ -29,7 +29,7 @@ const Vignettes = () => {
   };
 
   return (
-    <div className="p-8 flex flex-col items-center bg-gradient-to-br from-indigo-200 via-indigo-100 space-y-2">
+    <div className="p-8 flex flex-col items-center bg-gradient-to-br from-indigo-100 via-blue-100 space-y-2">
       <h3 className="leading-8 text-2xl text-gray-900 font-bold">
         Good to know
       </h3>

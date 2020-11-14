@@ -5,6 +5,7 @@ import Processes from '../components/process/Processes';
 import Features from '../components/feature/Features';
 import Support from '../components/Support';
 import Vignettes from '../components/Vignettes';
+import ActivePitching from '../components/ActivePitching';
 
 const Main = () => {
   return (
@@ -15,6 +16,7 @@ const Main = () => {
       <Features />
       <Support />
       <Vignettes />
+      <ActivePitching />
     </main>
   );
 };

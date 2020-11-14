@@ -44,9 +44,9 @@ const Processes = () => {
 
   return (
     <div className="flex flex-col p-8">
-      <div className="flex flex-col space-y-10">
+      <div className="flex flex-col space-y-12">
         {processes.map((process) => {
-          return <Process key={process.number} process={process} />;
+          return <Process key={process.number} {...process} />;
         })}
       </div>
     </div>

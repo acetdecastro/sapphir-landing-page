@@ -6,7 +6,7 @@ const Nav = () => {
     <nav className="flex justify-between items-center">
       <div className="flex justify-between items-center space-x-2">
         <a href="/">
-          <div className="hexagon"></div>
+          <div className="blue-hexagon"></div>
         </a>
 
         <span className="text-gray-600 leading-5">(514)-700-3009</span>

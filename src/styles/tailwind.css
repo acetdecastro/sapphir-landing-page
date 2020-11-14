@@ -8,16 +8,20 @@ html {
 
 @tailwind utilities;
 
-.hexagon {
+.hero-apply-now-button {
+  background-color: #1d52ff;
+}
+
+.blue-hexagon {
   position: relative;
   width: 36px;
   height: 20.78px;
-  background-color: #439efe;
+  background-color: #1d52ff;
   margin: 10.39px 0;
 }
 
-.hexagon:before,
-.hexagon:after {
+.blue-hexagon:before,
+.blue-hexagon:after {
   content: '';
   position: absolute;
   width: 0;
@@ -25,14 +29,41 @@ html {
   border-right: 18px solid transparent;
 }
 
-.hexagon:before {
+.blue-hexagon:before {
   bottom: 100%;
-  border-bottom: 10.39px solid #439efe;
+  border-bottom: 10.39px solid #1d52ff;
 }
 
-.hexagon:after {
+.blue-hexagon:after {
   top: 100%;
   width: 0;
-  margin-top: -1px;
-  border-top: 10.39px solid #439efe;
+  border-top: 10.39px solid #1d52ff;
+}
+
+.green-hexagon {
+  position: relative;
+  width: 36px;
+  height: 20.78px;
+  background-color: #7ff5ce;
+  margin: 10.39px 0;
+}
+
+.green-hexagon:before,
+.green-hexagon:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  border-left: 18px solid transparent;
+  border-right: 18px solid transparent;
+}
+
+.green-hexagon:before {
+  bottom: 100%;
+  border-bottom: 10.39px solid #7ff5ce;
+}
+
+.green-hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 10.39px solid #7ff5ce;
 }

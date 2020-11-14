@@ -4,6 +4,7 @@ import LoanPlan from '../components/LoanPlan';
 import Processes from '../components/process/Processes';
 import Features from '../components/feature/Features';
 import Support from '../components/Support';
+import Vignettes from '../components/Vignettes';
 
 const Main = () => {
   return (
@@ -13,6 +14,7 @@ const Main = () => {
       <Processes />
       <Features />
       <Support />
+      <Vignettes />
     </main>
   );
 };

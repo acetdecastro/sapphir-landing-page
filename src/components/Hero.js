@@ -1,27 +1,25 @@
 import React from 'react';
-import { ReactComponent as Pattern } from '../assets/patternpad.svg';
+import { ReactComponent as HeroPattern } from '../assets/heropatternpad.svg';
 import { ReactComponent as PhoneIcon } from 'heroicons/outline/phone.svg';
 import { ReactComponent as Wallet } from '../assets/wallet.svg';
 
 const Hero = () => {
   return (
-    <div className="relative overflow-hidden flex flex-col px-8 bg-gradient-to-b from-gray-50 space-y-8">
+    <div className="relative overflow-hidden flex flex-col px-8 space-y-8">
       <div className="absolute top-0 right-0 bottom-0 left-auto transform mt-24 -mr-16 rotate-45">
-        <Pattern className="h-64 w-64 opacity-25" />
+        <HeroPattern className="h-64 w-64 opacity-25" />
       </div>
 
-      <div className="space-y-6">
-        <div className="space-y-5">
+      <div className="space-y-10">
+        <div className="space-y-6">
           <h1 className="text-3xl font-extrabold text-gray-900 leading-8">
             Hassle free loaning
           </h1>
           <div className="flex flex-col space-y-2">
             <span className="text-lg font-bold text-gray-600 leading-5">
-              Get it in 30 mins.
+              Get it in 30 mins. No credit check.
             </span>
-            <span className="text-lg font-bold text-gray-600 leading-5">
-              No credit check.
-            </span>
+            <span className="text-lg font-bold text-gray-600 leading-5"></span>
           </div>
         </div>
         <div className="flex flex-col space-y-4">

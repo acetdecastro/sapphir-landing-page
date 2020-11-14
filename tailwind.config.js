@@ -13,7 +13,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: (theme) => ({
-        'support-hero-img': "url('/src/assets/customerservice.jpg')",
+        'process-pattern-svg': "url('/src/assets/processpatternpad.svg')",
       }),
       colors: {
         gray: {

@@ -28,7 +28,7 @@ const Features = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center p-8 bg-gray-50">
+    <div className="flex flex-col items-center p-8 bg-gradient-to-tl from-blue-200 via-blue-100">
       <div className="flex flex-col items-center space-y-10">
         <div className="flex flex-col items-center space-y-5">
           <a href="/">

@@ -13,9 +13,9 @@ const Support = () => {
         alt="We are here for you."
       />
       <div className="absolute inset-0 w-full h-full bg-gradient-to-bl from-blue-900 via-gray-900 to-teal-900 opacity-75"></div>
-      <div className="absolute inset-0 p-8 flex flex-col items-center space-y-6">
-        <div className="flex flex-col items-center space-y-3">
-          <h3 className="text-2xl font-extrabold text-white leading-8 -mt-1">
+      <div className="absolute inset-0 px-8 pt-6  flex flex-col items-center space-y-6">
+        <div className="flex flex-col items-center space-y-2">
+          <h3 className="text-2xl font-extrabold text-white leading-8">
             Always by your side
           </h3>
           <span className="leading-5 text-gray-50 opacity-75 tracking-wide text-xs font-bold">

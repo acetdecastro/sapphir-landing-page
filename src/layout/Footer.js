@@ -3,73 +3,71 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer className="p-8 bg-gray-100 space-y-10">
-      <div>
-        <div className="flex flex-col justify-center space-y-4">
-          <div className="flex items-center justify-center space-x-3">
-            <span className="leading-8 text-transparent bg-gradient-to-r from-blue-500 font-bold text-2xl sapphir-bg-color bg-clip-text">
-              Sapphir
-            </span>
-            <div className="blue-hexagon"></div>
-          </div>
-
-          <p className="leading-5 text-sm text-gray-600 tracking-wide font-semibold text-center">
-            Sapphir is a private financial company offering you new ways to
-            borrow
-          </p>
+      <div className="flex flex-col items-center justify-center space-y-4">
+        <div className="flex items-center justify-center space-x-3">
+          <span className="leading-8 text-transparent bg-gradient-to-r from-blue-500 font-bold text-2xl sapphir-bg-color bg-clip-text">
+            Sapphir
+          </span>
+          <div className="blue-hexagon"></div>
         </div>
+
+        <p className="leading-5 text-sm text-gray-600 tracking-wide font-semibold text-center md:w-2/4">
+          Sapphir is a private financial company offering you new ways to borrow
+        </p>
       </div>
 
-      <div className="space-y-10">
+      <div className="space-y-10 md:flex md:space-y-0 justify-center md:space-x-20">
         <div className="flex flex-col items-center space-y-3">
           <span className="uppercase text-sm text-gray-500 font-semibold tracking tracking-widest">
             Company
           </span>
           <div className="flex flex-col items-center space-y-3">
             <a
-              href="/about"
+              href="/"
               className="inline-flex text-sm font-medium text-gray-600 hover:underline focus:underline"
             >
               About Us
             </a>
             <a
-              href="/faq"
+              href="/"
               className="inline-flex text-sm font-medium text-gray-600 hover:underline focus:underline"
             >
               FAQ
             </a>
             <a
-              href="/Services"
+              href="/"
               className="inline-flex text-sm font-medium text-gray-600 hover:underline focus:underline"
             >
               Services
             </a>
             <a
-              href="/Login"
+              href="/"
               className="inline-flex text-sm font-medium text-gray-600 hover:underline focus:underline"
             >
               Log In
             </a>
           </div>
         </div>
+
         <div className="flex flex-col items-center space-y-3">
           <span className="uppercase text-sm text-gray-500 font-semibold tracking tracking-widest">
             Links
           </span>
           <div className="flex flex-col items-center space-y-3">
             <a
-              href="/terms"
+              href="/"
               className="inline-flex text-sm font-medium text-gray-600 hover:underline focus:underline"
             >
               Terms of Services
             </a>
             <a
-              href="/privacy"
+              href="/"
               className="inline-flex text-sm font-medium text-gray-600 hover:underline focus:underline"
             >
               Privacy Policy
             </a>
             <a
-              href="/legal"
+              href="/"
               className="inline-flex text-sm font-medium text-gray-600 hover:underline focus:underline"
             >
               Legal Notice
@@ -88,7 +86,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <form className="flex flex-col w-full space-y-4">
+        <form className="flex flex-col w-full space-y-4 md:w-2/4">
           <input
             type="email"
             className="py-3 px-6 border border-transparent shadow rounded focus:outline-none focus:border-blue-400 text-sm"

@@ -1,6 +1,10 @@
-import firstProcessImg from '../assets/process1.png';
-import secondProcessImg from '../assets/process2.png';
-import thirdProcessImg from '../assets/process3.png';
+import smFirstProcessImg from '../assets/process1.png';
+import smSecondProcessImg from '../assets/process2.png';
+import smThirdProcessImg from '../assets/process3.png';
+
+import mdFirstProcessImg from '../assets/mdprocess1.png';
+import mdSecondProcessImg from '../assets/mdprocess2.png';
+import mdThirdProcessImg from '../assets/mdprocess3.png';
 
 import { ReactComponent as ClockIcon } from 'heroicons/outline/clock.svg';
 import { ReactComponent as ChipIcon } from 'heroicons/outline/chip.svg';
@@ -11,7 +15,10 @@ export const dataProcesses = [
     number: 1,
     heading: 'Apply in 2 mins',
     subHeading: 'No credit check, no paperwork.',
-    imgSrc: firstProcessImg,
+    imgSrc: {
+      sm: smFirstProcessImg,
+      md: mdFirstProcessImg,
+    },
     descriptions: [
       'No credit check required in the application process.',
       'Apply online or by phone within 2 minutes.',
@@ -21,8 +28,11 @@ export const dataProcesses = [
   {
     number: 2,
     heading: 'Get approved in 10 mins',
-    subHeading: 'Safe, secure, confidential.',
-    imgSrc: secondProcessImg,
+    subHeading: 'The process is safe, secure, and confidential.',
+    imgSrc: {
+      sm: smSecondProcessImg,
+      md: mdSecondProcessImg,
+    },
     descriptions: [
       'Highest security standard in the financial industry.',
       'We never have access to your bank account or your password.',
@@ -33,7 +43,10 @@ export const dataProcesses = [
     number: 3,
     heading: 'Get your loan in 30 mins',
     subHeading: 'Deposited directly into your account.',
-    imgSrc: thirdProcessImg,
+    imgSrc: {
+      sm: smThirdProcessImg,
+      md: mdThirdProcessImg,
+    },
     descriptions: [
       'Receive an e-transfer you can use right away.',
       'You can also receive a direct deposit into your bank account.',

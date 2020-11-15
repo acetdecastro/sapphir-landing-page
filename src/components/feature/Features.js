@@ -5,8 +5,8 @@ import { dataFeatures } from '../../utils/data';
 
 const Features = () => {
   return (
-    <div className="flex flex-col items-center p-8 bg-gradient-to-tl from-blue-200 via-blue-100">
-      <section className="flex flex-col items-center space-y-10">
+    <div className="flex flex-col items-center p-8 bg-gradient-to-tl from-blue-200 via-blue-100 md:px-14 justify-between">
+      <section className="flex flex-col items-center space-y-10 w-full md:space-y-6">
         <div className="flex flex-col items-center space-y-5">
           <a href="/">
             <div className="blue-hexagon"></div>
@@ -19,9 +19,12 @@ const Features = () => {
             difference
           </h3>
         </div>
-        {dataFeatures.map((feature, index) => {
-          return <Feature key={index} {...feature} />;
-        })}
+
+        <div className="space-y-10 w-full md:flex md:space-y-0 justify-between">
+          {dataFeatures.map((feature, index) => {
+            return <Feature key={index} {...feature} />;
+          })}
+        </div>
       </section>
     </div>
   );

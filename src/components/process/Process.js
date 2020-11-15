@@ -3,7 +3,7 @@ import { ReactComponent as CheckIcon } from 'heroicons/solid/check.svg';
 
 const Process = ({ number, heading, subHeading, imgSrc, descriptions }) => {
   return (
-    <div className="flex flex-col items-center space-y-5">
+    <article className="flex flex-col items-center space-y-5">
       <div className="flex items-center justify-center h-16 w-16 rounded-full bg-gradient-to-tr from-blue-700 to-indigo-500">
         <span className="text-white text-xl leading-5 font-bold">{number}</span>
       </div>
@@ -32,7 +32,7 @@ const Process = ({ number, heading, subHeading, imgSrc, descriptions }) => {
           );
         })}
       </div>
-    </div>
+    </article>
   );
 };
 

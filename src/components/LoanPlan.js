@@ -4,7 +4,7 @@ const LoanPlan = () => {
   return (
     <div className="p-8 bg-blue-100">
       <div className="flex flex-col bg-white rounded-lg px-4 py-5 shadow">
-        <div className="flex flex-col items-center space-y-6">
+        <form className="flex flex-col items-center space-y-6">
           <div className="flex flex-col items-center space-y-3">
             <h2 className="text-2xl font-extrabold text-gray-900 leading-8">
               Get started
@@ -13,17 +13,26 @@ const LoanPlan = () => {
               Select your loan amount
             </span>
             <div className="flex items-center space-x-4 py-2">
-              <button className="flex items-center justify-center h-16 w-16 border border-blue-200 bg-blue-500 rounded-full focus:outline-none">
+              <button
+                type="button"
+                className="flex items-center justify-center h-16 w-16 border border-blue-200 bg-blue-500 rounded-full focus:outline-none"
+              >
                 <span className="leading-5 tracking-wider font-semibold text-white">
                   $250
                 </span>
               </button>
-              <button className="flex items-center justify-center h-16 w-16 border border-blue-200 rounded-full focus:outline-none">
+              <button
+                type="button"
+                className="flex items-center justify-center h-16 w-16 border border-blue-200 rounded-full focus:outline-none"
+              >
                 <span className="leading-5 tracking-wider font-semibold text-blue-700">
                   $500
                 </span>
               </button>
-              <button className="flex items-center justify-center h-16 w-16 border border-blue-200 rounded-full focus:outline-none">
+              <button
+                type="button"
+                className="flex items-center justify-center h-16 w-16 border border-blue-200 rounded-full focus:outline-none"
+              >
                 <span className="leading-5 tracking-wider font-semibold text-blue-700">
                   $750
                 </span>
@@ -35,22 +44,25 @@ const LoanPlan = () => {
               How often do you get paid at work?
             </span>
             <div className="flex flex-col divide-y-2 divide-blue-200 divide-opacity-25 w-48 rounded-md">
-              <button className="py-1 focus:outline-none">
+              <button type="button" className="py-1 focus:outline-none">
                 <span className="text-blue-700 font-semibold text- tracking-wide">
                   Weekly
                 </span>
               </button>
-              <button className="py-1 focus:outline-none bg-blue-500 rounded">
+              <button
+                type="button"
+                className="py-1 focus:outline-none bg-blue-500 rounded"
+              >
                 <span className="text-white font-semibold text- tracking-wide">
                   Every two weeks
                 </span>
               </button>
-              <button className="py-1 focus:outline-none">
+              <button type="button" className="py-1 focus:outline-none">
                 <span className="text-blue-700 font-semibold text- tracking-wide">
                   Twice a month
                 </span>
               </button>
-              <button className="py-1 focus:outline-none">
+              <button type="button" className="py-1 focus:outline-none">
                 <span className="text-blue-700 font-semibold text- tracking-wide">
                   Monthly
                 </span>
@@ -68,10 +80,14 @@ const LoanPlan = () => {
             <span className="font-bold text-gray-800 text-lg">140 days</span>
           </div>
 
-          <button className="uppercase py-3 w-full rounded-lg font-extrabold tracking-widest text-xs border border-blue-800 text-blue-800 shadow-lg focus:outline-none">
+          <button
+            type="submit"
+            className="uppercase py-3 w-full rounded-lg font-extrabold tracking-widest text-xs border border-blue-800 text-blue-800 shadow-lg focus:outline-none"
+            onClick={(e) => e.preventDefault()}
+          >
             Apply for this loan
           </button>
-        </div>
+        </form>
       </div>
     </div>
   );

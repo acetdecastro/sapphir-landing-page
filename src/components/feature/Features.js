@@ -6,7 +6,7 @@ import { dataFeatures } from '../../utils/data';
 const Features = () => {
   return (
     <div className="flex flex-col items-center p-8 bg-gradient-to-tl from-blue-200 via-blue-100">
-      <div className="flex flex-col items-center space-y-10">
+      <section className="flex flex-col items-center space-y-10">
         <div className="flex flex-col items-center space-y-5">
           <a href="/">
             <div className="blue-hexagon"></div>
@@ -22,7 +22,7 @@ const Features = () => {
         {dataFeatures.map((feature, index) => {
           return <Feature key={index} {...feature} />;
         })}
-      </div>
+      </section>
     </div>
   );
 };

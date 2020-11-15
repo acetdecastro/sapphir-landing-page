@@ -6,14 +6,14 @@ import { ReactComponent as MailIcon } from 'heroicons/outline/mail.svg';
 
 const Support = () => {
   return (
-    <div className="relative pb-64">
+    <section className="relative pb-64">
       <img
         className="absolute inset-0 w-full h-full object-cover"
         src={CustomerServiceImg}
         alt="We are here for you."
       />
       <div className="absolute inset-0 w-full h-full bg-gradient-to-bl from-blue-900 via-gray-900 to-teal-900 opacity-75"></div>
-      <div className="absolute inset-0 px-8 pt-6  flex flex-col items-center space-y-6">
+      <article className="absolute inset-0 px-8 pt-6  flex flex-col items-center space-y-6">
         <div className="flex flex-col items-center space-y-2">
           <h3 className="text-2xl font-extrabold text-white leading-8">
             Always by your side
@@ -59,8 +59,8 @@ const Support = () => {
             </a>
           </div>
         </div>
-      </div>
-    </div>
+      </article>
+    </section>
   );
 };
 

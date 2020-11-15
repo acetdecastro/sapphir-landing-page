@@ -6,7 +6,7 @@ const Footer = () => {
       <div>
         <div className="flex flex-col justify-center space-y-4">
           <div className="flex items-center justify-center space-x-3">
-            <span className="leading-5 text-transparent bg-gradient-to-r from-blue-500 font-bold text-2xl sapphir-bg-color bg-clip-text">
+            <span className="leading-8 text-transparent bg-gradient-to-r from-blue-500 font-bold text-2xl sapphir-bg-color bg-clip-text">
               Sapphir
             </span>
             <div className="blue-hexagon"></div>
@@ -84,30 +84,34 @@ const Footer = () => {
             Newsletter
           </span>
           <p className="leading-5 text-sm text-gray-600 tracking-wide font-semibold text-center">
-            Sign up and receive the latest tips via email 🚀
+            Sign up and receive the latest tips via email 💌
           </p>
         </div>
 
         <form className="flex flex-col w-full space-y-4">
           <input
             type="email"
-            className="py-2 px-6 border border-transparent shadow rounded focus:outline-none focus:border-blue-400 text-sm"
+            className="py-3 px-6 border border-transparent shadow rounded focus:outline-none focus:border-blue-400 text-sm"
             placeholder="Your email"
           />
-          <button className="uppercase py-3 sapphir-bg-color text-xs font-bold text-white rounded tracking-widest focus:outline-none">
+          <button
+            type="submit"
+            className="uppercase py-3 sapphir-bg-color text-xs font-bold text-white rounded tracking-widest focus:outline-none"
+            onClick={(e) => e.preventDefault()}
+          >
             Sign Up
           </button>
         </form>
 
         <div className="flex items-center justify-center space-x-3">
-          <a href="/facebook">
+          <a href="/">
             <img
               className="w-8 h-8"
               src="https://img.icons8.com/color/48/000000/facebook-new.png"
               alt="Facebook"
             />
           </a>
-          <a href="/twitter">
+          <a href="/">
             <img
               className="w-8 h-8"
               src="https://img.icons8.com/color/48/000000/twitter-circled.png"

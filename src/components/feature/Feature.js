@@ -2,7 +2,7 @@ import React from 'react';
 
 const Feature = ({ Icon, heading, subHeading }) => {
   return (
-    <div className="flex flex-col items-center space-y-5">
+    <article className="flex flex-col items-center space-y-5">
       <div className="flex flex-col items-center green-hexagon h-10 w-10">
         <Icon className="h-6 w-6 text-gray-800" />
       </div>
@@ -10,7 +10,7 @@ const Feature = ({ Icon, heading, subHeading }) => {
       <p className="leading-5 tracking-wider text-sm font-medium text-gray-700 text-center">
         {subHeading}
       </p>
-    </div>
+    </article>
   );
 };
 

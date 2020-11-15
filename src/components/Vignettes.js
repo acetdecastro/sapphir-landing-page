@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { dataQuestions } from '../utils/data';
 
 import { ReactComponent as ChevronDownIcon } from 'heroicons/solid/chevron-down.svg';
+import { ReactComponent as ChevronUpIcon } from 'heroicons/solid/chevron-up.svg';
 
 const Vignettes = () => {
   const [questions, setQuestions] = useState(dataQuestions);
@@ -33,10 +34,10 @@ const Vignettes = () => {
       <h3 className="leading-8 text-2xl text-gray-900 font-bold">
         Good to know
       </h3>
-      <div className="flex flex-col space-y-2">
+      <section className="flex flex-col space-y-2">
         {questions.map((question) => {
           return (
-            <div
+            <article
               key={question.id}
               className="flex flex-col justify-start p-4 bg-white rounded-md shadow-md space-y-3"
             >
@@ -49,7 +50,11 @@ const Vignettes = () => {
                     onClick={() => handleQuestionToggle(question.id)}
                     className="bg-blue-400 rounded-full h-5 w-5 focus:outline-none"
                   >
-                    <ChevronDownIcon className="h-5 w-5 text-white" />
+                    {question.isOpen ? (
+                      <ChevronUpIcon className="h-5 w-5 text-white" />
+                    ) : (
+                      <ChevronDownIcon className="h-5 w-5 text-white" />
+                    )}
                   </button>
                 </div>
               </div>
@@ -59,10 +64,10 @@ const Vignettes = () => {
                   {question.info}
                 </p>
               )}
-            </div>
+            </article>
           );
         })}
-      </div>
+      </section>
     </div>
   );
 };

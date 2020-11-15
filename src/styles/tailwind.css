@@ -2,6 +2,7 @@
 
 html {
   @apply antialiased;
+  scroll-behavior: smooth;
 }
 
 @tailwind components;

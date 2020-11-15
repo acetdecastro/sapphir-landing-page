@@ -8,7 +8,6 @@ import Vignettes from '../components/Vignettes';
 import ActivePitching from '../components/ActivePitching';
 
 const Main = () => {
-  console.log('main');
   return (
     <main>
       <Hero />

@@ -46,10 +46,10 @@ const Process = ({ number, heading, subHeading, imgSrc, descriptions }) => {
           <img
             src={imgSrc[imageSize]}
             alt="icon"
-            className="h-24 w-24 md:h-64 md:w-64 object-cover"
+            className="h-24 w-24 md:h-64 md:w-64 object-cover lg:h-80 lg:w-80"
           />
         </div>
-        <div className="flex flex-col space-y-5 pt-1 px-2 w-72 md:w-88 md:space-y-6">
+        <div className="flex flex-col space-y-5 pt-1 px-2 w-72 md:w-88 md:space-y-6 lg:space-y-12 lg:w-120">
           {descriptions.map((description, index) => {
             return (
               <div key={index} className="flex space-x-4">

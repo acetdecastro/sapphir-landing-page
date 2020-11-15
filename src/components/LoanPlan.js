@@ -2,10 +2,10 @@ import React from 'react';
 
 const LoanPlan = () => {
   return (
-    <div className="p-8 md:px-14 bg-blue-100">
-      <div className="flex flex-col bg-white rounded-lg px-4 py-5 shadow-md">
+    <div className="p-8 md:px-14 bg-blue-100 lg:px-20">
+      <div className="flex flex-col bg-white rounded-lg px-4 py-8 shadow-md">
         <form className="flex flex-col items-center space-y-5">
-          <div className="flex flex-col items-center space-y-4">
+          <div className="flex flex-col items-center space-y-5">
             <h2 className="text-2xl font-extrabold text-gray-900 leading-8">
               Get started
             </h2>
@@ -18,9 +18,9 @@ const LoanPlan = () => {
               <div className="flex items-center space-x-4 py-2">
                 <button
                   type="button"
-                  className="flex items-center justify-center h-16 w-16 border border-blue-200 bg-blue-500 rounded-full focus:outline-none"
+                  className="flex items-center justify-center h-16 w-16 border border-blue-200 bg-blue-200 rounded-full focus:outline-none"
                 >
-                  <span className="leading-5 tracking-wider font-semibold text-white">
+                  <span className="leading-5 tracking-wider font-semibold text-gray-800">
                     $250
                   </span>
                 </button>
@@ -44,7 +44,7 @@ const LoanPlan = () => {
             </div>
 
             {/* MD view */}
-            <div className="hidden md:flex space-x-24">
+            <div className="hidden md:flex md:space-x-20 lg:space-x-40">
               <div className="flex flex-col items-center space-y-2">
                 <span className="leading-5 text-base font-semibold tracking-wide text-gray-600">
                   Select your loan amount
@@ -52,9 +52,9 @@ const LoanPlan = () => {
                 <div className="flex items-center space-x-4 py-2">
                   <button
                     type="button"
-                    className="flex items-center justify-center h-16 w-16 border border-blue-200 bg-blue-500 rounded-full focus:outline-none"
+                    className="flex items-center justify-center h-16 w-16 border border-blue-200 bg-blue-200 rounded-full focus:outline-none"
                   >
-                    <span className="leading-5 tracking-wider font-semibold text-white">
+                    <span className="leading-5 tracking-wider font-semibold text-gray-800">
                       $250
                     </span>
                   </button>
@@ -89,9 +89,9 @@ const LoanPlan = () => {
                   </button>
                   <button
                     type="button"
-                    className="py-1 focus:outline-none bg-blue-500 rounded"
+                    className="py-1 focus:outline-none bg-blue-200 rounded"
                   >
-                    <span className="text-white font-semibold tracking-wide">
+                    <span className="text-gray-800 font-semibold tracking-wide">
                       Every two weeks
                     </span>
                   </button>
@@ -117,25 +117,25 @@ const LoanPlan = () => {
             </span>
             <div className="flex flex-col divide-y-2 divide-blue-200 divide-opacity-25 w-48 rounded-md">
               <button type="button" className="py-1 focus:outline-none">
-                <span className="text-blue-700 font-semibold text- tracking-wide">
+                <span className="text-blue-700 font-semibold tracking-wide">
                   Weekly
                 </span>
               </button>
               <button
                 type="button"
-                className="py-1 focus:outline-none bg-blue-500 rounded"
+                className="py-1 focus:outline-none bg-blue-200 rounded"
               >
-                <span className="text-white font-semibold text- tracking-wide">
+                <span className="text-gray-800 font-semibold tracking-wide">
                   Every two weeks
                 </span>
               </button>
               <button type="button" className="py-1 focus:outline-none">
-                <span className="text-blue-700 font-semibold text- tracking-wide">
+                <span className="text-blue-700 font-semibold tracking-wide">
                   Twice a month
                 </span>
               </button>
               <button type="button" className="py-1 focus:outline-none">
-                <span className="text-blue-700 font-semibold text- tracking-wide">
+                <span className="text-blue-700 font-semibold tracking-wide">
                   Monthly
                 </span>
               </button>

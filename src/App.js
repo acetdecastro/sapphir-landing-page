@@ -59,10 +59,10 @@ const App = () => {
         <div className="fixed bottom-0 right-0 p-4 opacity-75">
           <button
             type="button"
-            className="flex items-center bg-blue-200 p-3 focus:outline-none rounded-full"
+            className="flex items-center bg-teal-300 p-3 focus:outline-none rounded-full"
             onClick={handleBackToTop}
           >
-            <ArrowUpIcon className="h-5 w-5 text-gray-700" />
+            <ArrowUpIcon className="h-5 w-5 text-black" />
           </button>
         </div>
       </Transition>

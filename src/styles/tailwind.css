@@ -68,3 +68,33 @@ html {
   width: 0;
   border-top: 10.39px solid #7ff5ce;
 }
+
+@media only screen and (min-width: 1024px) {
+  .green-hexagon {
+    position: relative;
+    width: 42px;
+    height: 30px;
+    background-color: #7ff5ce;
+    margin: 12px 0;
+  }
+
+  .green-hexagon:before,
+  .green-hexagon:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+  }
+
+  .green-hexagon:before {
+    bottom: 100%;
+    border-bottom: 10.39px solid #7ff5ce;
+  }
+
+  .green-hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 10.39px solid #7ff5ce;
+  }
+}

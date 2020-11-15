@@ -43,7 +43,7 @@ const Vignettes = () => {
             >
               <div className="flex">
                 <div className="flex space-x-4">
-                  <p className="leading-5 tracking-wide text-sm font-medium break-words w-56 text-gray-700 md:w-72 md:text-base">
+                  <p className="leading-5 tracking-wide text-sm font-medium break-words w-56 text-gray-700 md:w-72 md:text-base lg:w-104">
                     {question.title}
                   </p>
                   <button
@@ -60,7 +60,7 @@ const Vignettes = () => {
               </div>
 
               {question.isOpen && (
-                <p className="leading-6 text-xs font-medium text-gray-600 tracking-wide w-56 md:w-72 md:text-sm">
+                <p className="leading-6 text-xs font-medium text-gray-600 tracking-wide w-56 md:w-72 md:text-sm lg:w-104">
                   {question.info}
                 </p>
               )}

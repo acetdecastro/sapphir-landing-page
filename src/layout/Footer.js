@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="p-8 bg-gray-100 space-y-10">
+    <footer className="p-8 bg-gray-200 space-y-10">
       <div className="flex flex-col items-center justify-center space-y-4">
         <div className="flex items-center justify-center space-x-3">
           <span className="leading-8 text-transparent bg-gradient-to-r from-blue-500 font-bold text-2xl sapphir-bg-color bg-clip-text">
@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="blue-hexagon"></div>
         </div>
 
-        <p className="leading-5 text-sm text-gray-600 tracking-wide font-semibold text-center md:w-2/4">
+        <p className="leading-5 text-sm text-gray-600 tracking-wide font-medium text-center md:w-2/4 lg:w-full">
           Sapphir is a private financial company offering you new ways to borrow
         </p>
       </div>
@@ -94,7 +94,7 @@ const Footer = () => {
           />
           <button
             type="submit"
-            className="uppercase py-3 sapphir-bg-color text-xs font-bold text-white rounded tracking-widest focus:outline-none"
+            className="uppercase py-3 text-xs border border-gray-900 shadow-md font-bold text-black rounded tracking-widest focus:outline-none"
             onClick={(e) => e.preventDefault()}
           >
             Sign Up

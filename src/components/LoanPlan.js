@@ -2,7 +2,7 @@ import React from 'react';
 
 const LoanPlan = () => {
   return (
-    <div className="p-8 md:px-14 bg-blue-100 lg:px-20">
+    <div className="p-8 md:px-14 mmmd:px-32 lg:px-28 llg:px-48 xl:px-56 xxl:px-72 xxxl:px-96 4xl:px-112 5xl:px-120 6xl:px-136 bg-blue-100">
       <div className="flex flex-col bg-white rounded-lg px-4 py-8 shadow-md">
         <form className="flex flex-col items-center space-y-5">
           <div className="flex flex-col items-center space-y-5">

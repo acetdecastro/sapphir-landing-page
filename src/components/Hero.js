@@ -5,18 +5,26 @@ import { ReactComponent as Wallet } from '../assets/wallet.svg';
 
 const Hero = () => {
   return (
-    <div className="relative overflow-hidden flex flex-col px-8 space-y-8 md:flex-row md:px-14 md:pt-10 md:pb-20 lg:px-20">
-      <div className="absolute z-0 top-0 right-0 bottom-0 left-auto transform mt-24 -mr-16 rotate-45 md:-mr-4 md:mt-16">
-        <HeroPattern className="h-64 w-64 opacity-25 lg:h-104 lg:w-104" />
+    <div className="relative overflow-hidden flex flex-col justify-between px-8 space-y-8 md:flex-row md:px-14 md:pt-4 md:pb-6 mmd:px-24 mmmd:px-32 lg:px-28 llg:px-40 xl:px-48 xl:pt-24 xxl:px-48 xxxl:px-72 4xl:px-80 5xl:px-96 6xl:px-104">
+      <div className="hidden llg:block absolute z-0 top-0 right-auto bottom-0 left-0 transform -rotate-45 llg:-ml-68 xl:-ml-80 xxl:-ml-80 4xl:-ml-96">
+        <HeroPattern className="h-40 w-40 opacity-50 lg:h-80 lg:w-80 xl:h-104 xl:w-104 xxl:h-112 xxl:w-112 xxxl:h-120 xxxl:w-120 4xl:h-128 4xl:w-128" />
+      </div>
+
+      <div className="absolute z-0 top-0 right-0 bottom-0 left-auto transform mt-24 -mr-16 rotate-45 md:-mr-48 md:mt-6 lg:-mr-64 xl:-mr-88">
+        <HeroPattern className="h-64 w-64 opacity-25 lg:h-80 lg:w-80 xl:h-104 xl:w-104 xxxl:h-112 xxxl:w-112" />
+      </div>
+
+      <div className="hidden md:block absolute z-0 top-auto right-0 bottom-0 left-0 transform -mt-30 -mr-16 -rotate-45 md:-mr-30">
+        <HeroPattern className="h-40 w-40 opacity-25 lg:h-80 lg:w-80 xl:h-104 xl:w-104 xxl:h-112 xxl:w-112 xxxl:h-120 xxxl:w-120 4xl:h-128 4xl:w-128" />
       </div>
 
       <div className="space-y-10 md:space-y-20">
-        <div className="space-y-6 lg:space-y-10">
-          <h1 className="text-3xl font-extrabold text-gray-900 leading-8 md:text-4xl lg:text-6xl">
+        <div className="space-y-4 lg:space-y-8">
+          <h1 className="text-3xl font-extrabold text-gray-900 leading-8 md:text-4xl lg:text-4.5xl xl:text-5xl xxl:text-6xl">
             Hassle free loaning
           </h1>
           <div className="flex flex-col space-y-2">
-            <span className="text-lg font-semibold text-gray-600 leading-5 lg:text-xl">
+            <span className="text-base md:text-lg font-semibold text-gray-600 leading-5 lg:text-xl">
               Get it in 30 mins. No credit check.
             </span>
             <span className="text-lg font-bold text-gray-600 leading-5"></span>
@@ -40,7 +48,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <Wallet className="h-64 w-64 md:absolute inset-y-auto left-auto right-0 md:pr-12 md:pb-32.5 md:h-96 md:w-96 lg:h-104 lg:w-104" />
+      <Wallet className="h-64 w-64 md:pb-10 md:h-72 md:w-72 lg:h-88 lg:w-88 lg:pb-24 xl:h-112 xl:w-112 xl:pb-48 xl:-mr-20" />
     </div>
   );
 };

@@ -12,50 +12,100 @@ const Nav = () => {
     <>
       <nav className="flex justify-between items-center">
         <a href="/" className="inline-flex items-center space-x-2 md:pt-1.5">
-          <span className="text-transparent text-lg font-bold bg-gradient-to-r from-blue-500 sapphir-bg-color bg-clip-text">
+          <span className="text-transparent text-lg font-bold bg-gradient-to-r from-blue-500 sapphir-bg-color bg-clip-text xl:text-xl">
             Sapphir
           </span>
           <div className="blue-hexagon"></div>
         </a>
 
-        {/* MD to LG views */}
-        <div className="hidden md:flex items-center space-x-8">
-          <ul className="hidden lg:flex space-x-8">
+        {/* XL view */}
+        <div className="hidden xl:flex items-center space-x-8 xl:pt-0.5">
+          <ul className="flex space-x-12">
             <li>
-              <a href="/" className="text-sm font-medium text-gray-700">
+              <a href="/" className="text-sm font-bold text-gray-600">
                 Home
               </a>
             </li>
             <li>
-              <a href="/" className="text-sm font-medium text-gray-700">
+              <a href="/" className="text-sm font-bold text-gray-600">
                 About
               </a>
             </li>
             <li>
-              <a href="/" className="text-sm font-medium text-gray-700">
+              <a href="/" className="text-sm font-bold text-gray-600">
                 Services
               </a>
             </li>
             <li>
-              <a href="/" className="text-sm font-medium text-gray-700">
+              <a href="/" className="text-sm font-bold text-gray-600">
                 Contact
               </a>
             </li>
             <li>
-              <a href="/" className="text-sm font-medium text-gray-700">
+              <a href="/" className="text-sm font-bold text-gray-600">
                 Support
               </a>
             </li>
           </ul>
+        </div>
 
-          <ul className="flex space-x-8">
+        {/* XL view for auth links */}
+        <div className="hidden xl:flex items-center space-x-8 xl:pt-0.5">
+          <ul className="flex space-x-12">
             <li>
-              <a href="/" className="text-sm text-gray-700 font-medium">
+              <a href="/" className="text-sm text-gray-600 font-bold">
                 Log In
               </a>
             </li>
             <li>
-              <a href="/" className="text-sm text-indigo-500 font-medium">
+              <a href="/" className="text-sm text-indigo-500 font-bold">
+                Sign Up
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        {/* MD to LG views */}
+        <div className="hidden md:flex items-center space-x-8 xl:hidden">
+          <ul className="hidden space-x-8 lg:flex lg:space-x-10">
+            <li>
+              <a href="/" className="text-sm font-bold text-gray-600">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="/" className="text-sm font-bold text-gray-600">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="/" className="text-sm font-bold text-gray-600">
+                Services
+              </a>
+            </li>
+            <li>
+              <a href="/" className="text-sm font-bold text-gray-600">
+                Contact
+              </a>
+            </li>
+            <li>
+              <a href="/" className="text-sm font-bold text-gray-600">
+                Support
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        {/* MD to LG views for auth links */}
+        <div className="hidden md:flex items-center space-x-8 xl:hidden">
+          <ul className="flex space-x-8">
+            <li>
+              <a href="/" className="text-sm text-gray-600 font-bold">
+                Log In
+              </a>
+            </li>
+            <li>
+              <a href="/" className="text-sm text-indigo-500 font-bold">
                 Sign Up
               </a>
             </li>

@@ -86,10 +86,10 @@ const Footer = () => {
           </p>
         </div>
 
-        <form className="flex flex-col w-full space-y-4 md:w-2/4">
+        <form className="flex flex-col w-full space-y-4 md:w-2/4 xl:w-88">
           <input
             type="email"
-            className="py-3 px-6 border border-transparent shadow rounded focus:outline-none focus:border-blue-400 text-sm"
+            className="py-3 px-6 border border-transparent shadow rounded font-semibold focus:outline-none focus:border-blue-400 text-sm xl:text-base"
             placeholder="Your email"
           />
           <button

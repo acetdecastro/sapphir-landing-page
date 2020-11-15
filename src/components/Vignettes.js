@@ -34,12 +34,12 @@ const Vignettes = () => {
       <h3 className="leading-8 text-2xl text-gray-900 font-bold md:text-3xl">
         Good to know
       </h3>
-      <section className="flex flex-col space-y-4 md:w-3/6">
+      <section className="flex flex-col space-y-4 xl:items-center">
         {questions.map((question) => {
           return (
             <article
               key={question.id}
-              className="flex flex-col justify-start p-4 bg-white rounded-md shadow-md space-y-3"
+              className="flex flex-col justify-start p-4 bg-white rounded-md shadow-md space-y-3 xl:w-120"
             >
               <div className="flex">
                 <div className="flex space-x-4">

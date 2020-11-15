@@ -41,7 +41,11 @@ const Process = ({ number, heading, subHeading, imgSrc, descriptions }) => {
         </p>
       </div>
 
-      <div className="space-y-5 md:flex flex-row-reverse justify-between items-center">
+      <div
+        className={`space-y-5 md:flex ${
+          number % 2 === 0 ? 'flex-row-reverse' : 'flex-row'
+        } justify-between items-center`}
+      >
         <div className="flex justify-center">
           <img
             src={imgSrc[imageSize]}

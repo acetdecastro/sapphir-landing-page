@@ -24,7 +24,7 @@ const Nav = () => {
             <li>
               <a
                 href="/"
-                className="text-sm font-bold tracking-wide text-gray-600 transition ease-in duration-200 hover:text-gray-800"
+                className="text-sm font-semibold tracking-wide text-gray-600 transition ease-in duration-200 hover:text-gray-500"
               >
                 Home
               </a>
@@ -32,7 +32,7 @@ const Nav = () => {
             <li>
               <a
                 href="/"
-                className="text-sm font-bold tracking-wide text-gray-600 transition ease-in duration-200 hover:text-gray-800"
+                className="text-sm font-semibold tracking-wide text-gray-600 transition ease-in duration-200 hover:text-gray-500"
               >
                 About
               </a>
@@ -40,7 +40,7 @@ const Nav = () => {
             <li>
               <a
                 href="/"
-                className="text-sm font-bold tracking-wide text-gray-600 transition ease-in duration-200 hover:text-gray-800"
+                className="text-sm font-semibold tracking-wide text-gray-600 transition ease-in duration-200 hover:text-gray-500"
               >
                 Services
               </a>
@@ -48,7 +48,7 @@ const Nav = () => {
             <li>
               <a
                 href="/"
-                className="text-sm font-bold tracking-wide text-gray-600 transition ease-in duration-200 hover:text-gray-800"
+                className="text-sm font-semibold tracking-wide text-gray-600 transition ease-in duration-200 hover:text-gray-500"
               >
                 Contact
               </a>
@@ -56,7 +56,7 @@ const Nav = () => {
             <li>
               <a
                 href="/"
-                className="text-sm font-bold tracking-wide text-gray-600 transition ease-in duration-200 hover:text-gray-800"
+                className="text-sm font-semibold tracking-wide text-gray-600 transition ease-in duration-200 hover:text-gray-500"
               >
                 Support
               </a>
@@ -70,7 +70,7 @@ const Nav = () => {
             <li>
               <a
                 href="/"
-                className="text-sm text-gray-600 tracking-wide font-bold transition ease-in duration-200 hover:text-gray-800"
+                className="text-sm text-gray-600 tracking-wide font-semibold transition ease-in duration-200 hover:text-gray-500"
               >
                 Log In
               </a>
@@ -78,7 +78,7 @@ const Nav = () => {
             <li>
               <a
                 href="/"
-                className="text-sm text-indigo-500 tracking-wide font-bold transition ease-in duration-200 hover:text-indigo-700"
+                className="text-sm text-indigo-500 tracking-wide font-semibold transition ease-in duration-200 hover:text-indigo-400"
               >
                 Sign Up
               </a>
@@ -92,7 +92,7 @@ const Nav = () => {
             <li>
               <a
                 href="/"
-                className="text-sm text-gray-600 tracking-wide font-bold transition ease-in duration-200 hover:text-gray-800"
+                className="text-sm text-gray-600 tracking-wide font-semibold transition ease-in duration-200 hover:text-gray-500"
               >
                 Home
               </a>
@@ -100,7 +100,7 @@ const Nav = () => {
             <li>
               <a
                 href="/"
-                className="text-sm text-gray-600 tracking-wide font-bold transition ease-in duration-200 hover:text-gray-800"
+                className="text-sm text-gray-600 tracking-wide font-semibold transition ease-in duration-200 hover:text-gray-500"
               >
                 About
               </a>
@@ -108,7 +108,7 @@ const Nav = () => {
             <li>
               <a
                 href="/"
-                className="text-sm text-gray-600 tracking-wide font-bold transition ease-in duration-200 hover:text-gray-800"
+                className="text-sm text-gray-600 tracking-wide font-semibold transition ease-in duration-200 hover:text-gray-500"
               >
                 Services
               </a>
@@ -116,7 +116,7 @@ const Nav = () => {
             <li>
               <a
                 href="/"
-                className="text-sm text-gray-600 tracking-wide font-bold transition ease-in duration-200 hover:text-gray-800"
+                className="text-sm text-gray-600 tracking-wide font-semibold transition ease-in duration-200 hover:text-gray-500"
               >
                 Contact
               </a>
@@ -124,7 +124,7 @@ const Nav = () => {
             <li>
               <a
                 href="/"
-                className="text-sm text-gray-600 tracking-wide font-bold transition ease-in duration-200 hover:text-gray-800"
+                className="text-sm text-gray-600 tracking-wide font-semibold transition ease-in duration-200 hover:text-gray-500"
               >
                 Support
               </a>
@@ -138,7 +138,7 @@ const Nav = () => {
             <li>
               <a
                 href="/"
-                className="text-sm text-gray-600 tracking-wide font-bold transition ease-in duration-200 hover:text-gray-800"
+                className="text-sm text-gray-600 tracking-wide font-semibold transition ease-in duration-200 hover:text-gray-500"
               >
                 Log In
               </a>
@@ -146,7 +146,7 @@ const Nav = () => {
             <li>
               <a
                 href="/"
-                className="text-sm text-indigo-500 tracking-wide font-bold transition ease-in duration-200 hover:text-indigo-700"
+                className="text-sm text-indigo-500 tracking-wide font-semibold transition ease-in duration-200 hover:text-indigo-400"
               >
                 Sign Up
               </a>

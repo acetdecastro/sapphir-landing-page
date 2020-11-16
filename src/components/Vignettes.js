@@ -11,20 +11,19 @@ const Vignettes = () => {
   const handleQuestionToggle = (id) => {
     let allQuestions = [...questions];
 
-    const questionsExcludingTheSelectedOne = allQuestions.filter(
-      (question) => question.id !== id
+    const allQuestionsExcludingTheSelected = allQuestions.filter(
+      (q) => q.id !== id
     );
-
-    questionsExcludingTheSelectedOne.forEach((q) => (q.isOpen = false));
+    allQuestionsExcludingTheSelected.forEach((q) => (q.isOpen = false));
 
     let selectedQuestion = allQuestions.find((q) => q.id === id);
 
     selectedQuestion.isOpen = selectedQuestion.isOpen ? false : true;
 
-    // Sort questions by their id
+    // Sort by their id
     allQuestions = [
       selectedQuestion,
-      ...questionsExcludingTheSelectedOne,
+      ...allQuestionsExcludingTheSelected,
     ].sort((a, b) => (a.id > b.id ? 1 : -1));
 
     setQuestions(allQuestions);

@@ -86,7 +86,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <form className="flex flex-col w-full space-y-4 md:w-2/4 xl:w-88">
+        <form className="flex flex-col w-72 space-y-4 md:w-2/4 xl:w-88">
           <input
             type="email"
             className="py-3 px-6 border border-transparent shadow rounded font-semibold focus:outline-none focus:border-blue-400 text-sm xl:text-base"
@@ -94,7 +94,7 @@ const Footer = () => {
           />
           <button
             type="submit"
-            className="uppercase py-3 text-xs border border-gray-900 shadow-lg font-bold text-black rounded tracking-widest focus:outline-none transition ease-in duration-200 hover:bg-gray-800 focus:bg-black hover:text-white focus:text-white"
+            className="uppercase py-3 text-xs border border-black shadow-lg font-bold text-black rounded tracking-widest focus:outline-none transition ease-in duration-200 hover:bg-gray-800 focus:bg-black hover:text-white focus:text-white"
             onClick={(e) => e.preventDefault()}
           >
             Sign Up

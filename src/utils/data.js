@@ -10,6 +10,56 @@ import { ReactComponent as ClockIcon } from 'heroicons/outline/clock.svg';
 import { ReactComponent as ChipIcon } from 'heroicons/outline/chip.svg';
 import { ReactComponent as HeartIcon } from 'heroicons/outline/heart.svg';
 
+export const dataLoanPlans = {
+  amounts: [
+    {
+      id: 1,
+      value: 250,
+      isSelected: false,
+    },
+    {
+      id: 2,
+      value: 500,
+      isSelected: false,
+    },
+    {
+      id: 3,
+      value: 750,
+      isSelected: false,
+    },
+  ],
+  paymentIntervals: [
+    {
+      id: 1,
+      interval: 'Weekly',
+      value: 4,
+      interest: 0.1,
+      isSelected: false,
+    },
+    {
+      id: 2,
+      interval: 'Every Two Weeks',
+      value: 3,
+      interest: 0.15,
+      isSelected: false,
+    },
+    {
+      id: 3,
+      interval: 'Twice a month',
+      value: 2,
+      interest: 0.2,
+      isSelected: false,
+    },
+    {
+      id: 4,
+      interval: 'Monthly',
+      value: 1,
+      interest: 0.25,
+      isSelected: false,
+    },
+  ],
+};
+
 export const dataProcesses = [
   {
     number: 1,

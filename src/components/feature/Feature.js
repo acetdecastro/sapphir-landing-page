@@ -9,7 +9,7 @@ const Feature = ({ Icon, heading, subHeading }) => {
       <h4 className="leading-5 text-lg font-bold text-gray-900 md:text-base lg:text-xl">
         {heading}
       </h4>
-      <p className="leading-5 tracking-wider text-sm font-medium text-gray-700 text-center md:w-48 md:text-xs lg:text-sm lg:w-64">
+      <p className="leading-5 tracking-wider text-sm font-medium text-gray-700 text-center w-72 md:w-48 md:text-xs lg:text-sm lg:w-64">
         {subHeading}
       </p>
     </article>

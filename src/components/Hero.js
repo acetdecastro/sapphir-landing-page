@@ -3,8 +3,6 @@ import { ReactComponent as HeroPattern } from '../assets/heropatternpad.svg';
 import { ReactComponent as PhoneIcon } from 'heroicons/outline/phone.svg';
 import { ReactComponent as Wallet } from '../assets/wallet.svg';
 
-import useWindowInnerWidth from '../utils/useWindowInnerWidth';
-
 const Hero = () => {
   return (
     <div className="relative overflow-hidden flex flex-col justify-between px-8 space-y-8 md:flex-row md:px-14 md:pt-4 md:pb-6 mmd:px-24 mmmd:px-32 lg:px-28 llg:px-44 xl:px-48 xl:pt-24 xxl:px-52 xxxl:px-72 4xl:px-80 5xl:px-96 6xl:px-104 bg-gradient-to-bl from-teal-100 via-blue-100">
@@ -44,7 +42,7 @@ const Hero = () => {
             </div>
 
             <span className="text-xs text-gray-700 font-medium tracking-wide md:text-sm">
-              (514)-700-3009 {useWindowInnerWidth()}
+              (514)-700-3009
             </span>
           </div>
         </div>

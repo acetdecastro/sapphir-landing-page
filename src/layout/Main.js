@@ -1,6 +1,6 @@
 import React from 'react';
 import Hero from '../components/Hero';
-import LoanPlan from '../components/LoanPlan';
+import LoanPlan from '../components/loan/LoanPlan';
 import Processes from '../components/process/Processes';
 import Features from '../components/feature/Features';
 import Support from '../components/Support';

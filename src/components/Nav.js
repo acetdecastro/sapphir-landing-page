@@ -12,7 +12,7 @@ const Nav = () => {
     <>
       <nav className="flex justify-between items-center">
         <a href="/" className="inline-flex items-center space-x-2 md:pt-1.5">
-          <span className="text-transparent text-lg font-bold bg-gradient-to-r from-blue-500 sapphir-bg-color bg-clip-text xl:text-xl">
+          <span className="select-none text-transparent text-lg font-bold bg-gradient-to-r from-blue-500 sapphir-bg-color bg-clip-text xl:text-xl">
             Sapphir
           </span>
           <div className="blue-hexagon"></div>
@@ -255,7 +255,7 @@ const Nav = () => {
               href="/"
               className="inline-flex items-center pt-5 space-x-2 md:space-x-4"
             >
-              <span className="text-transparent text-xl font-bold bg-gradient-to-r from-blue-500 sapphir-bg-color bg-clip-text md:text-4xl">
+              <span className="select-none text-transparent text-xl font-bold bg-gradient-to-r from-blue-500 sapphir-bg-color bg-clip-text md:text-4xl">
                 Sapphir
               </span>
               <div className="blue-hexagon"></div>

@@ -165,7 +165,7 @@ const LoanPlan = () => {
 
           <button
             type="submit"
-            className="uppercase py-3 w-56 rounded-lg font-extrabold tracking-widest text-xs border border-black text-gray-900 shadow-lg md:w-64 focus:outline-none transition ease-in duration-200 hover:bg-gray-800 focus:bg-black hover:text-white focus:text-white"
+            className="select-none uppercase py-3 w-56 rounded-lg font-extrabold tracking-widest text-xs border border-black text-gray-900 shadow-lg md:w-64 focus:outline-none transition ease-in duration-200 hover:bg-gray-800 focus:bg-black hover:text-white focus:text-white"
             onClick={(e) => e.preventDefault()}
           >
             Apply for this loan

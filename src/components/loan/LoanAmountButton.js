@@ -20,7 +20,7 @@ const LoanAmountButton = ({
       className={buttonCSSClasses}
       onClick={() => handleAmountButtonOnClick(id)}
     >
-      <span className="leading-5 tracking-wider font-semibold">
+      <span className="select-none leading-5 tracking-wider font-semibold">
         {'$' + value}
       </span>
     </button>

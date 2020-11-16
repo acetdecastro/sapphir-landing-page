@@ -20,11 +20,11 @@ const Hero = () => {
 
       <div className="space-y-10 md:space-y-20">
         <div className="space-y-4 lg:space-y-8">
-          <h1 className="text-3xl font-extrabold text-gray-900 leading-8 md:text-4xl lg:text-4.5xl xl:text-5xl xxl:text-6xl">
+          <h1 className="select-none text-3xl font-extrabold text-gray-900 leading-8 md:text-4xl lg:text-4.5xl xl:text-5xl xxl:text-6xl">
             Hassle free loaning
           </h1>
           <div className="flex flex-col space-y-2">
-            <span className="text-base md:text-lg font-semibold text-gray-600 leading-5 lg:text-xl">
+            <span className="select-none text-base md:text-lg font-semibold text-gray-600 leading-5 lg:text-xl">
               Get it in 30 mins. No credit check.
             </span>
             <span className="text-lg font-bold text-gray-600 leading-5"></span>
@@ -32,7 +32,7 @@ const Hero = () => {
         </div>
         <div className="flex flex-col space-y-4">
           <div className="">
-            <button className="uppercase text-xs py-3 px-6 bg-gradient-to-bl from-indigo-500 rounded-md font-bold tracking-widest sapphir-bg-color text-white md:px-10 focus:outline-none transition ease-in duration-200 transform hover:scale-105">
+            <button className="select-none uppercase text-xs py-3 px-6 bg-gradient-to-bl from-indigo-500 rounded-md font-bold tracking-widest sapphir-bg-color text-white md:px-10 focus:outline-none transition ease-in duration-200 transform hover:scale-105">
               Apply now
             </button>
           </div>

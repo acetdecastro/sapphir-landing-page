@@ -1,5 +1,10 @@
 @tailwind base;
 
+::selection {
+  color: rgb(0, 0, 0);
+  background: rgb(179, 248, 239);
+}
+
 html {
   @apply antialiased;
   scroll-behavior: smooth;

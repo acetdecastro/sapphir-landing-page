@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="p-8 bg-gray-200 space-y-10">
       <div className="flex flex-col items-center justify-center space-y-4">
         <div className="flex items-center justify-center space-x-3">
-          <span className="leading-8 text-transparent bg-gradient-to-r from-blue-500 font-bold text-2xl sapphir-bg-color bg-clip-text">
+          <span className="select-none leading-8 text-transparent bg-gradient-to-r from-blue-500 font-bold text-2xl sapphir-bg-color bg-clip-text">
             Sapphir
           </span>
           <div className="blue-hexagon"></div>
@@ -94,7 +94,7 @@ const Footer = () => {
           />
           <button
             type="submit"
-            className="uppercase py-3 text-xs border border-black shadow-lg font-bold text-black rounded tracking-widest focus:outline-none transition ease-in duration-200 hover:bg-gray-800 focus:bg-black hover:text-white focus:text-white"
+            className="select-none uppercase py-3 text-xs border border-black shadow-lg font-bold text-black rounded tracking-widest focus:outline-none transition ease-in duration-200 hover:bg-gray-800 focus:bg-black hover:text-white focus:text-white"
             onClick={(e) => e.preventDefault()}
           >
             Sign Up

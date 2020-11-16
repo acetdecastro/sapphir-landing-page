@@ -21,7 +21,7 @@ const Process = ({ number, heading, subHeading, imgSrc, descriptions }) => {
     <article className="flex flex-col items-center md:items-stretch space-y-5">
       <div className="flex justify-center">
         <div className="flex items-center justify-center h-16 w-16 rounded-full bg-gradient-to-tr from-blue-700 to-indigo-500">
-          <span className="text-white text-xl leading-5 font-bold text-center">
+          <span className="select-none text-white text-xl leading-5 font-bold text-center">
             {number}
           </span>
         </div>

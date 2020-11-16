@@ -22,7 +22,9 @@ const LoanPaymentInterValButton = ({
       className={buttonCSSClasses}
       onClick={() => handlePaymentIntervalButtonOnClick(id)}
     >
-      <span className="font-semibold tracking-wide">{interval}</span>
+      <span className="select-none font-semibold tracking-wide">
+        {interval}
+      </span>
     </button>
   );
 };

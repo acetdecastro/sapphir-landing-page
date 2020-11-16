@@ -1,3 +1,4 @@
+import { Transition } from '@tailwindui/react';
 import React, { useState } from 'react';
 import { dataQuestions } from '../utils/data';
 
@@ -39,7 +40,7 @@ const Vignettes = () => {
           return (
             <article
               key={question.id}
-              className="flex flex-col justify-start p-4 bg-white rounded-md shadow-md space-y-3 xl:w-120"
+              className="flex flex-col justify-start p-4 bg-white rounded-md shadow-md space-y-3 xl:w-120 transition ease-in duration-200 hover:bg-gray-50"
             >
               <div className="flex">
                 <div className="flex space-x-4">
@@ -47,8 +48,8 @@ const Vignettes = () => {
                     {question.title}
                   </p>
                   <button
-                    onClick={() => handleQuestionToggle(question.id)}
-                    className="bg-blue-400 rounded-full h-5 w-5 focus:outline-none"
+                    onClick={(e) => handleQuestionToggle(question.id)}
+                    className="bg-blue-400 rounded-full h-5 w-5 focus:outline-none transition ease-in duration-200 transform hover:scale-110 hover:bg-blue-500"
                   >
                     {question.isOpen ? (
                       <ChevronUpIcon className="h-5 w-5 text-white" />
@@ -59,11 +60,19 @@ const Vignettes = () => {
                 </div>
               </div>
 
-              {question.isOpen && (
-                <p className="leading-6 text-xs font-medium text-gray-600 tracking-wide w-56 md:w-72 md:text-sm lg:w-104">
+              <Transition
+                show={question.isOpen}
+                enter="transition-opacity duration-300"
+                enterFrom="opacity-0"
+                enterTo="opacity-100"
+                leave="transition-opacity duration-150"
+                leaveFrom="opacity-100"
+                leaveTo="opacity-0"
+              >
+                <p className="leading-6 text-xs font-medium text-gray-600 tracking-wider w-56 md:w-72 md:text-sm lg:w-104">
                   {question.info}
                 </p>
-              )}
+              </Transition>
             </article>
           );
         })}

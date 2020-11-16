@@ -94,7 +94,7 @@ const Footer = () => {
           />
           <button
             type="submit"
-            className="uppercase py-3 text-xs border border-gray-900 shadow-md font-bold text-black rounded tracking-widest focus:outline-none"
+            className="uppercase py-3 text-xs border border-gray-900 shadow-lg font-bold text-black rounded tracking-widest focus:outline-none transition ease-in duration-200 hover:bg-gray-800 focus:bg-black hover:text-white focus:text-white"
             onClick={(e) => e.preventDefault()}
           >
             Sign Up

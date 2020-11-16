@@ -5,7 +5,7 @@ import { dataFeatures } from '../../utils/data';
 
 const Features = () => {
   return (
-    <div className="flex flex-col items-center justify-between p-8 bg-gradient-to-tl from-blue-200 via-blue-100 md:px-14 md:py-10 mmmd:px-32 lg:px-20 llg:px-32 xl:px-48 xxxl:px-72 4xl:px-88 6xl:px-104">
+    <div className="flex flex-col items-center justify-between p-8 bg-gradient-to-tl from-blue-200 via-blue-100 md:px-14 md:py-10 mmmd:px-32 lg:px-20 llg:px-32 xl:px-48 xxl:px-72 4xl:px-88 5xl:px-96 6xl:px-104">
       <section className="flex flex-col items-center space-y-10 w-full lg:space-y-12">
         <div className="flex flex-col items-center space-y-5">
           <a href="/">

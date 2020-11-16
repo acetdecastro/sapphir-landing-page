@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import useWindowInnerWidth from '../../utils/useWindowInnerWidth';
+
 import { ReactComponent as CheckIcon } from 'heroicons/solid/check.svg';
 
 const Process = ({ number, heading, subHeading, imgSrc, descriptions }) => {
   const [imageSize, setImageSize] = useState('');
-  const [windowInnerWidth, setWindowInnerWidth] = useState(window.innerWidth);
+  let windowInnerWidth = useWindowInnerWidth();
 
   useEffect(() => {
     if (windowInnerWidth < 768) {
@@ -13,14 +15,6 @@ const Process = ({ number, heading, subHeading, imgSrc, descriptions }) => {
     if (windowInnerWidth >= 768) {
       setImageSize('md');
     }
-
-    const resetInnerWidthOnResize = () => {
-      setWindowInnerWidth(window.innerWidth);
-    };
-
-    window.addEventListener('resize', resetInnerWidthOnResize);
-
-    return () => window.removeEventListener('resize', resetInnerWidthOnResize);
   }, [windowInnerWidth]);
 
   return (

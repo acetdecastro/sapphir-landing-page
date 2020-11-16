@@ -22,27 +22,42 @@ const Nav = () => {
         <div className="hidden xl:flex items-center space-x-8 xl:pt-0.5">
           <ul className="flex space-x-12">
             <li>
-              <a href="/" className="text-sm font-bold text-gray-600">
+              <a
+                href="/"
+                className="text-sm font-bold tracking-wide text-gray-600 transition ease-in duration-200 hover:text-gray-800"
+              >
                 Home
               </a>
             </li>
             <li>
-              <a href="/" className="text-sm font-bold text-gray-600">
+              <a
+                href="/"
+                className="text-sm font-bold tracking-wide text-gray-600 transition ease-in duration-200 hover:text-gray-800"
+              >
                 About
               </a>
             </li>
             <li>
-              <a href="/" className="text-sm font-bold text-gray-600">
+              <a
+                href="/"
+                className="text-sm font-bold tracking-wide text-gray-600 transition ease-in duration-200 hover:text-gray-800"
+              >
                 Services
               </a>
             </li>
             <li>
-              <a href="/" className="text-sm font-bold text-gray-600">
+              <a
+                href="/"
+                className="text-sm font-bold tracking-wide text-gray-600 transition ease-in duration-200 hover:text-gray-800"
+              >
                 Contact
               </a>
             </li>
             <li>
-              <a href="/" className="text-sm font-bold text-gray-600">
+              <a
+                href="/"
+                className="text-sm font-bold tracking-wide text-gray-600 transition ease-in duration-200 hover:text-gray-800"
+              >
                 Support
               </a>
             </li>
@@ -51,14 +66,20 @@ const Nav = () => {
 
         {/* XL view for auth links */}
         <div className="hidden xl:flex items-center space-x-8 xl:pt-0.5">
-          <ul className="flex space-x-12">
+          <ul className="flex space-x-8">
             <li>
-              <a href="/" className="text-sm text-gray-600 font-bold">
+              <a
+                href="/"
+                className="text-sm text-gray-600 tracking-wide font-bold transition ease-in duration-200 hover:text-gray-800"
+              >
                 Log In
               </a>
             </li>
             <li>
-              <a href="/" className="text-sm text-indigo-500 font-bold">
+              <a
+                href="/"
+                className="text-sm text-indigo-500 tracking-wide font-bold transition ease-in duration-200 hover:text-indigo-700"
+              >
                 Sign Up
               </a>
             </li>
@@ -69,27 +90,42 @@ const Nav = () => {
         <div className="hidden md:flex items-center space-x-8 xl:hidden">
           <ul className="hidden space-x-8 lg:flex lg:space-x-10">
             <li>
-              <a href="/" className="text-sm font-bold text-gray-600">
+              <a
+                href="/"
+                className="text-sm text-gray-600 tracking-wide font-bold transition ease-in duration-200 hover:text-gray-800"
+              >
                 Home
               </a>
             </li>
             <li>
-              <a href="/" className="text-sm font-bold text-gray-600">
+              <a
+                href="/"
+                className="text-sm text-gray-600 tracking-wide font-bold transition ease-in duration-200 hover:text-gray-800"
+              >
                 About
               </a>
             </li>
             <li>
-              <a href="/" className="text-sm font-bold text-gray-600">
+              <a
+                href="/"
+                className="text-sm text-gray-600 tracking-wide font-bold transition ease-in duration-200 hover:text-gray-800"
+              >
                 Services
               </a>
             </li>
             <li>
-              <a href="/" className="text-sm font-bold text-gray-600">
+              <a
+                href="/"
+                className="text-sm text-gray-600 tracking-wide font-bold transition ease-in duration-200 hover:text-gray-800"
+              >
                 Contact
               </a>
             </li>
             <li>
-              <a href="/" className="text-sm font-bold text-gray-600">
+              <a
+                href="/"
+                className="text-sm text-gray-600 tracking-wide font-bold transition ease-in duration-200 hover:text-gray-800"
+              >
                 Support
               </a>
             </li>
@@ -100,12 +136,18 @@ const Nav = () => {
         <div className="hidden md:flex items-center space-x-8 xl:hidden">
           <ul className="flex space-x-8">
             <li>
-              <a href="/" className="text-sm text-gray-600 font-bold">
+              <a
+                href="/"
+                className="text-sm text-gray-600 tracking-wide font-bold transition ease-in duration-200 hover:text-gray-800"
+              >
                 Log In
               </a>
             </li>
             <li>
-              <a href="/" className="text-sm text-indigo-500 font-bold">
+              <a
+                href="/"
+                className="text-sm text-indigo-500 tracking-wide font-bold transition ease-in duration-200 hover:text-indigo-700"
+              >
                 Sign Up
               </a>
             </li>
@@ -143,53 +185,77 @@ const Nav = () => {
               className="focus:outline-none"
               onClick={handleNavMenuToggle}
             >
-              <CloseIcon className="h-8 w-8 text-gray-700" />
+              <CloseIcon className="h-8 w-8 text-gray-700 transition ease-in duration-200 hover:text-gray-600" />
             </button>
           </div>
-          <div className="flex flex-col m-auto space-y-10">
-            <ul className="text-center space-y-3">
+          <div className="flex flex-col m-auto space-y-10 md:space-y-16">
+            <ul className="text-center space-y-3 md:space-y-5">
               <li>
-                <a href="/" className="text-2xl font-medium text-gray-700">
+                <a
+                  href="/"
+                  className="text-2xl font-medium tracking-wide text-gray-700 md:text-4xl transition ease-in duration-200 hover:text-gray-600"
+                >
                   Home
                 </a>
               </li>
               <li>
-                <a href="/" className="text-2xl font-medium text-gray-700">
+                <a
+                  href="/"
+                  className="text-2xl font-medium tracking-wide text-gray-700 md:text-4xl transition ease-in duration-200 hover:text-gray-600"
+                >
                   About
                 </a>
               </li>
               <li>
-                <a href="/" className="text-2xl font-medium text-gray-700">
+                <a
+                  href="/"
+                  className="text-2xl font-medium tracking-wide text-gray-700 md:text-4xl transition ease-in duration-200 hover:text-gray-600"
+                >
                   Services
                 </a>
               </li>
               <li>
-                <a href="/" className="text-2xl font-medium text-gray-700">
+                <a
+                  href="/"
+                  className="text-2xl font-medium tracking-wide text-gray-700 md:text-4xl transition ease-in duration-200 hover:text-gray-600"
+                >
                   Contact
                 </a>
               </li>
               <li>
-                <a href="/" className="text-2xl font-medium text-gray-700">
+                <a
+                  href="/"
+                  className="text-2xl font-medium tracking-wide text-gray-700 md:text-4xl transition ease-in duration-200 hover:text-gray-600"
+                >
                   Support
                 </a>
               </li>
             </ul>
 
-            <ul className="text-center space-y-3">
+            <ul className="text-center space-y-3 md:space-y-5">
               <li>
-                <a href="/" className="text-2xl font-medium text-gray-700">
+                <a
+                  href="/"
+                  className="text-2xl font-medium tracking-wide text-gray-700 md:text-4xl transition ease-in duration-200 hover:text-gray-600"
+                >
                   Log In
                 </a>
               </li>
               <li>
-                <a href="/" className="text-2xl font-medium text-indigo-700">
+                <a
+                  href="/"
+                  className="text-2xl font-medium text-indigo-700 tracking-wide md:text-4xl transition ease-in duration-200 hover:text-indigo-500"
+                >
                   Sign Up
                 </a>
               </li>
             </ul>
 
-            <a href="/" className="inline-flex items-center pt-5 space-x-2">
-              <span className="text-transparent text-xl font-bold bg-gradient-to-r from-blue-500 sapphir-bg-color bg-clip-text">
+            <a
+              href="/"
+              className="inline-flex items-center pt-5 space-x-2 md:space-x-4"
+            >
+              <span className="text-transparent text-xl font-bold bg-gradient-to-r from-blue-500 sapphir-bg-color bg-clip-text md:text-4xl">
                 Sapphir
               </span>
               <div className="blue-hexagon"></div>

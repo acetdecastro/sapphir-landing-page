@@ -14,7 +14,7 @@ const ActivePitching = () => {
 
         <button
           type="button"
-          className="bg-gradient-to-bl from-indigo-500 sapphir-bg-color uppercase font-bold tracking-widest text-xs w-full py-3 text-gray-100 rounded-md md:w-2/6 xl:w-56 xxl:w-48 focus:outline-none"
+          className="bg-gradient-to-bl w-56 from-indigo-500 sapphir-bg-color uppercase font-bold tracking-widest text-xs py-3 text-gray-100 rounded-md md:w-2/6 xl:w-56 xxl:w-48 focus:outline-none transition transform ease-in duration-200 hover:scale-105"
         >
           Apply now
         </button>

@@ -9,4 +9,4 @@
 - [PostCSS](https://postcss.org/)
 - [PurgeCSS](https://purgecss.com/)
 
-###### All data and computation are only make believe.
+###### The data (words and definitions) came from a mock up design I got somewhere in Upwork.

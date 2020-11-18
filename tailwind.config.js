@@ -7,13 +7,13 @@ module.exports = {
     purgeLayersByDefault: true,
   },
   purge: {
-    // content: [
-    //   'src/**/*.js',
-    //   'src/**/*.jsx',
-    //   'src/**/*.ts',
-    //   'src/**/*.tsx',
-    //   'public/**/*.html',
-    // ],
+    content: [
+      'src/**/*.js',
+      'src/**/*.jsx',
+      'src/**/*.ts',
+      'src/**/*.tsx',
+      'public/**/*.html',
+    ],
   },
   theme: {
     fontFamily: {
